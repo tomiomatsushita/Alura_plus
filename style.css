@@ -1,0 +1,26 @@
+:root {
+    --principal-withe: #FFFFFF;
+    --second-gray: #c0c0c0;
+    --blue-button: #167BF7;
+    --backgorund-color: #00030c;
+}
+
+body {
+    background-color: var(--backgorund-color);
+    color: var(--principal-withe);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;    
+}
+
+.container {
+    height: 100vh;
+}
